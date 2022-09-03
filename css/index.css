@@ -25,7 +25,7 @@
     height: 630px;
     width: 100%;
     /* border: 1px solid red; */
-    background-image: url("../images/back_animation.jpg");
+    background-image: url(../images/back_animation.jpg);
     background-size: cover;
     
     
