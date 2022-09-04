@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px)
+{
+   .header
+   {
+      height: auto;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   .navlink .navlist
+   {
+      height: 350px;
+      width: 50%;
+      position: absolute;
+      top: 78px;
+      right: -50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      border: 1px solid gray;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      background-color: black;
+      color: var(--white-color);
+      font-size: 25px;
+   }
+   .navlink .navlist.active
+   {
+      
+      right: 0;
+   }
+ .navlink .navlist li a
+ {
+    /* display: block; */
+    color: var(--white-color);
+ }
+ .toggle
+ {
+    display: block;
+    border: 2px solid orangered;
+    padding: 10px;
+    color: black;
+ }    
+ .nav
+ {
+   width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+#btn
+{
+   margin-left: 15px;
+}
+.waste
+{
+   height: auto;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* background-color: grey; */
+}
+.flex
+{
+   height: auto;
+   width: 100%;
+   /* background-color: red; */
+}
+.flex2
+{
+   height: auto;
+   width: 100%;
+   text-align: center;
+   /* background-color: green; */
+   
+}
+#sideimg
+{
+   margin-top: 50px;
+   /* height: 300px; */
+   width: 50%;
+   padding-left: 0;
+   /* margin-left: 0; */
+   
+}
+
+ .content h1
+ {
+   padding-top: 140px;
+    padding-left: 30px;
+    margin-top: 0px;
+    width: 100%;
+ }
+ .box_div
+ {
+    height: auto;
+    margin-left: 0;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-left: 20px;
+ }
+ 
+ .images
+ {
+   height: auto;
+   width: 100%;
+    padding-left: 0px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+ }
+
+ .flex_img
+ {
+   width: 80%;
+   margin: 10px;
+ }
+ #big_img
+ {}
+ .
+flex_img1 {
+  
+   width: 50%;
+ }
+ .img
+
+ {
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    
+ }
+}
